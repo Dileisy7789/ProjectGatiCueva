@@ -39,7 +39,7 @@ public class UsuarioDAO
 
     public static boolean CambiarInformacionUsuario(Usuario usuarioEditado){
         try {
-            Usuario existeNuevoUsuario = new Usuario();
+            Usuario existeNuevoUsuario = null;
             Usuario buscarUsuario = buscarUsuarioPorDocumento(usuarioEditado.getNumeroDocumento());
             if(buscarUsuario == null || buscarUsuario.getUsuario() == null) return false;
             if(!buscarUsuario.getUsuario().equals(usuarioEditado.getUsuario())){

@@ -16,9 +16,9 @@
     "especialidad" : "Felinos",
     "agnosExperiencia" : null,
     "matriculaProfessional" : null,
-    "fechaCreacion" : [ 2023, 3, 1 ],
     "fechaModificacion" : [ 2024, 1, 10 ],
-    "fechaDeceso" : null
+    "fechaDeceso" : null,
+    "fechaCreacion" : [ 2023, 3, 1 ]
   } ],
   "usuarios" : [ {
     "id" : 1,
@@ -42,9 +42,9 @@
       "nombre" : "Administrador"
     },
     "activo" : true,
-    "fechaCreacion" : [ 2023, 1, 1 ],
     "fechaModificacion" : [ 2024, 1, 1 ],
-    "fechaDeceso" : null
+    "fechaDeceso" : null,
+    "fechaCreacion" : [ 2023, 1, 1 ]
   }, {
     "id" : 0,
     "tipoDocumento" : "CC|",
@@ -67,9 +67,9 @@
       "nombre" : null
     },
     "activo" : true,
-    "fechaCreacion" : [ 2025, 7, 19 ],
     "fechaModificacion" : [ 2025, 7, 19 ],
-    "fechaDeceso" : [ 1900, 1, 1 ]
+    "fechaDeceso" : [ 1900, 1, 1 ],
+    "fechaCreacion" : [ 2025, 7, 19 ]
   }, {
     "id" : 0,
     "tipoDocumento" : "CC",
@@ -92,9 +92,59 @@
       "nombre" : null
     },
     "activo" : true,
-    "fechaCreacion" : [ 2025, 7, 19 ],
     "fechaModificacion" : [ 2025, 7, 19 ],
-    "fechaDeceso" : [ 1900, 1, 1 ]
+    "fechaDeceso" : [ 1900, 1, 1 ],
+    "fechaCreacion" : [ 2025, 7, 19 ]
+  }, {
+    "id" : 0,
+    "tipoDocumento" : "CC",
+    "numeroDocumento" : "1234567",
+    "nombres" : "Isabel",
+    "apellidos" : "Arbelaez Ramirez",
+    "celular" : "51245425",
+    "correoElectronico" : "isa@gmail.com",
+    "fechaNacimiento" : [ 1992, 9, 1 ],
+    "direccion" : "calle 32",
+    "sexo" : "Femenino",
+    "direccionFotografia" : "C:\\Users\\DILEISY\\IdeaProjects\\proyectoGaticueva\\imagenesUsuario\\1234567.jpg",
+    "idUsuario" : 0,
+    "usuario" : "Isa",
+    "clave" : "",
+    "fechaRegistro" : [ 2025, 7, 19 ],
+    "fechaModificacionUsuario" : [ 2025, 7, 19 ],
+    "tipoUsuario" : {
+      "id" : 0,
+      "nombre" : null
+    },
+    "activo" : true,
+    "fechaModificacion" : [ 2025, 7, 19 ],
+    "fechaDeceso" : [ 1900, 1, 1 ],
+    "fechaCreacion" : [ 2025, 7, 19 ]
+  }, {
+    "id" : 0,
+    "tipoDocumento" : "CC",
+    "numeroDocumento" : "12345678",
+    "nombres" : "Carlitos",
+    "apellidos" : "Arias",
+    "celular" : "41222221",
+    "correoElectronico" : "carlitos@gmail.com",
+    "fechaNacimiento" : [ 1990, 7, 12 ],
+    "direccion" : "calle 20",
+    "sexo" : "Maculino",
+    "direccionFotografia" : "C:\\Users\\DILEISY\\IdeaProjects\\proyectoGaticueva\\imagenesUsuario\\12345678.jpg",
+    "idUsuario" : 0,
+    "usuario" : "Carlitos1",
+    "clave" : "$2a$10$dIXVGsWQ47OCi9JCCBPQW.CY9hGz7S4qBrVtJIfo1J9FYoUCR/azm",
+    "fechaRegistro" : [ 2025, 7, 19 ],
+    "fechaModificacionUsuario" : [ 2025, 7, 19 ],
+    "tipoUsuario" : {
+      "id" : 0,
+      "nombre" : null
+    },
+    "activo" : true,
+    "fechaModificacion" : [ 2025, 7, 19 ],
+    "fechaDeceso" : [ 1900, 1, 1 ],
+    "fechaCreacion" : [ 2025, 7, 19 ]
   } ],
   "adoptantes" : [ {
     "id" : 3,
@@ -108,9 +158,9 @@
     "direccion" : "Calle 99",
     "sexo" : "M",
     "direccionFotografia" : "/imagenes/adoptante.png",
-    "fechaCreacion" : [ 2022, 12, 12 ],
     "fechaModificacion" : [ 2024, 1, 15 ],
-    "fechaDeceso" : null
+    "fechaDeceso" : null,
+    "fechaCreacion" : [ 2022, 12, 12 ]
   }, {
     "id" : 4,
     "tipoDocumento" : "CC",
@@ -123,9 +173,9 @@
     "direccion" : "Calle 99",
     "sexo" : "M",
     "direccionFotografia" : "/imagenes/adoptante.png",
-    "fechaCreacion" : [ 2022, 12, 12 ],
     "fechaModificacion" : [ 2024, 1, 15 ],
-    "fechaDeceso" : null
+    "fechaDeceso" : null,
+    "fechaCreacion" : [ 2022, 12, 12 ]
   } ],
   "tipoUsuarios" : [ {
     "id" : 1,
@@ -170,6 +220,19 @@
       "id" : 2,
       "nombre" : "Gato"
     }
+  }, {
+    "id" : "1918292d",
+    "nombre" : "Kitty",
+    "raza" : "Gato domestico",
+    "fechaNacimiento" : [ 2022, 12, 10 ],
+    "fechaRegistro" : [ 2025, 7, 19 ],
+    "sexo" : "Femenino",
+    "direccionFotografia" : "C:\\Users\\DILEISY\\IdeaProjects\\proyectoGaticueva\\imagenesAnimal\\1918292d.jpg",
+    "fechaDeceso" : [ 1900, 1, 1 ],
+    "tipoAnimal" : {
+      "id" : 2,
+      "nombre" : "Gato"
+    }
   } ],
   "registrosMedicos" : [ {
     "id" : 1,
@@ -200,9 +263,9 @@
       "especialidad" : "Felinos",
       "agnosExperiencia" : null,
       "matriculaProfessional" : null,
-      "fechaCreacion" : [ 2023, 3, 1 ],
       "fechaModificacion" : [ 2024, 1, 10 ],
-      "fechaDeceso" : null
+      "fechaDeceso" : null,
+      "fechaCreacion" : [ 2023, 3, 1 ]
     },
     "animal" : {
       "id" : "10345A",
@@ -236,9 +299,9 @@
       "direccion" : "Calle 99",
       "sexo" : "M",
       "direccionFotografia" : "/imagenes/adoptante.png",
-      "fechaCreacion" : [ 2022, 12, 12 ],
       "fechaModificacion" : [ 2024, 1, 15 ],
-      "fechaDeceso" : null
+      "fechaDeceso" : null,
+      "fechaCreacion" : [ 2022, 12, 12 ]
     },
     "encargado" : {
       "id" : 1,
@@ -262,9 +325,9 @@
         "nombre" : "Administrador"
       },
       "activo" : true,
-      "fechaCreacion" : [ 2023, 1, 1 ],
       "fechaModificacion" : [ 2024, 1, 1 ],
-      "fechaDeceso" : null
+      "fechaDeceso" : null,
+      "fechaCreacion" : [ 2023, 1, 1 ]
     },
     "animal" : {
       "id" : "10345A",
