@@ -1,0 +1,285 @@
+{
+  "veterinarios" : [ {
+    "id" : 2,
+    "tipoDocumento" : "CC",
+    "numeroDocumento" : "1000000001",
+    "nombres" : "Laura",
+    "apellidos" : "Meza",
+    "celular" : "3007654321",
+    "correoElectronico" : "laura@gaticueva.com",
+    "fechaNacimiento" : [ 1985, 5, 15 ],
+    "direccion" : "Carrera 45",
+    "sexo" : "F",
+    "direccionFotografia" : "/imagenes/veterinario.png",
+    "idVeterinario" : 1,
+    "tituloUniversitario" : null,
+    "especialidad" : "Felinos",
+    "agnosExperiencia" : null,
+    "matriculaProfessional" : null,
+    "fechaCreacion" : [ 2023, 3, 1 ],
+    "fechaModificacion" : [ 2024, 1, 10 ],
+    "fechaDeceso" : null
+  } ],
+  "usuarios" : [ {
+    "id" : 1,
+    "tipoDocumento" : "CC",
+    "numeroDocumento" : "1000000000",
+    "nombres" : "Juan",
+    "apellidos" : "Pérez Garcia",
+    "celular" : "3001234567",
+    "correoElectronico" : "admin@gaticueva.com",
+    "fechaNacimiento" : [ 1990, 1, 1 ],
+    "direccion" : "Calle 123",
+    "sexo" : "M",
+    "direccionFotografia" : "C:\\Users\\DILEISY\\IdeaProjects\\proyectoGaticueva\\imagenesUsuario\\1000000000.jpg",
+    "idUsuario" : 1,
+    "usuario" : "admin",
+    "clave" : "$2a$12$cjtb78pj28ERP.ZKtqz77epudnWAxj0WNTujzlXtq50JCjrgfDyXy",
+    "fechaRegistro" : [ 2024, 1, 1 ],
+    "fechaModificacionUsuario" : [ 2024, 2, 1 ],
+    "tipoUsuario" : {
+      "id" : 1,
+      "nombre" : "Administrador"
+    },
+    "activo" : true,
+    "fechaCreacion" : [ 2023, 1, 1 ],
+    "fechaModificacion" : [ 2024, 1, 1 ],
+    "fechaDeceso" : null
+  }, {
+    "id" : 0,
+    "tipoDocumento" : "CC|",
+    "numeroDocumento" : "123456",
+    "nombres" : "Juanita",
+    "apellidos" : "Perez Cardona",
+    "celular" : "3117666648",
+    "correoElectronico" : "correo@gmail.com",
+    "fechaNacimiento" : [ 2002, 7, 10 ],
+    "direccion" : "Calle 11 #30-60",
+    "sexo" : "Femenino",
+    "direccionFotografia" : "C:\\Users\\DILEISY\\IdeaProjects\\proyectoGaticueva\\fotos\\123456.jpg",
+    "idUsuario" : 0,
+    "usuario" : "parce",
+    "clave" : "$2a$10$upcO.taPqbPI1gMLGMrmEOs4zwxAc.RRXbZInM9/eIudurp/duHXC",
+    "fechaRegistro" : [ 2025, 7, 19 ],
+    "fechaModificacionUsuario" : [ 2025, 7, 19 ],
+    "tipoUsuario" : {
+      "id" : 0,
+      "nombre" : null
+    },
+    "activo" : true,
+    "fechaCreacion" : [ 2025, 7, 19 ],
+    "fechaModificacion" : [ 2025, 7, 19 ],
+    "fechaDeceso" : [ 1900, 1, 1 ]
+  }, {
+    "id" : 0,
+    "tipoDocumento" : "CC",
+    "numeroDocumento" : "987654",
+    "nombres" : "Pablo",
+    "apellidos" : "Castro",
+    "celular" : "1212212",
+    "correoElectronico" : "correo@gmail.com",
+    "fechaNacimiento" : [ 2004, 9, 10 ],
+    "direccion" : "ddwdwdwd",
+    "sexo" : "Masculino",
+    "direccionFotografia" : "",
+    "idUsuario" : 0,
+    "usuario" : "Pablis",
+    "clave" : "",
+    "fechaRegistro" : [ 2025, 7, 19 ],
+    "fechaModificacionUsuario" : [ 2025, 7, 19 ],
+    "tipoUsuario" : {
+      "id" : 0,
+      "nombre" : null
+    },
+    "activo" : true,
+    "fechaCreacion" : [ 2025, 7, 19 ],
+    "fechaModificacion" : [ 2025, 7, 19 ],
+    "fechaDeceso" : [ 1900, 1, 1 ]
+  } ],
+  "adoptantes" : [ {
+    "id" : 3,
+    "tipoDocumento" : "CC",
+    "numeroDocumento" : "1000000002",
+    "nombres" : "Carlos",
+    "apellidos" : "Ramírez",
+    "celular" : "3011231234",
+    "correoElectronico" : "carlos@gaticueva.com",
+    "fechaNacimiento" : [ 1995, 8, 10 ],
+    "direccion" : "Calle 99",
+    "sexo" : "M",
+    "direccionFotografia" : "/imagenes/adoptante.png",
+    "fechaCreacion" : [ 2022, 12, 12 ],
+    "fechaModificacion" : [ 2024, 1, 15 ],
+    "fechaDeceso" : null
+  }, {
+    "id" : 4,
+    "tipoDocumento" : "CC",
+    "numeroDocumento" : "1928292",
+    "nombres" : "Luis",
+    "apellidos" : "Carmona",
+    "celular" : "3011237234",
+    "correoElectronico" : "LCarmona@gaticueva.com",
+    "fechaNacimiento" : [ 1995, 8, 10 ],
+    "direccion" : "Calle 99",
+    "sexo" : "M",
+    "direccionFotografia" : "/imagenes/adoptante.png",
+    "fechaCreacion" : [ 2022, 12, 12 ],
+    "fechaModificacion" : [ 2024, 1, 15 ],
+    "fechaDeceso" : null
+  } ],
+  "tipoUsuarios" : [ {
+    "id" : 1,
+    "nombre" : "Administrador"
+  }, {
+    "id" : 2,
+    "nombre" : "Veterinario"
+  }, {
+    "id" : 3,
+    "nombre" : "Voluntario"
+  } ],
+  "tiposAnimal" : [ {
+    "id" : 1,
+    "nombre" : "Perro"
+  }, {
+    "id" : 2,
+    "nombre" : "Gato"
+  } ],
+  "animales" : [ {
+    "id" : "10345A",
+    "nombre" : "Cat",
+    "raza" : "Labrador",
+    "fechaNacimiento" : [ 2020, 3, 14 ],
+    "fechaRegistro" : [ 2020, 4, 1 ],
+    "sexo" : "Femenino",
+    "direccionFotografia" : "C:\\Users\\DILEISY\\IdeaProjects\\proyectoGaticueva\\imagenesAnimal\\10345A.jpg",
+    "fechaDeceso" : [ 1900, 1, 1 ],
+    "tipoAnimal" : {
+      "id" : 2,
+      "nombre" : "Gato"
+    }
+  }, {
+    "id" : "182829s",
+    "nombre" : "cat",
+    "raza" : "Criolla",
+    "fechaNacimiento" : [ 2025, 7, 2 ],
+    "fechaRegistro" : [ 2025, 7, 19 ],
+    "sexo" : "Femenino",
+    "direccionFotografia" : "C:\\Users\\DILEISY\\IdeaProjects\\proyectoGaticueva\\imagenesAnimal\\182829s.jpg",
+    "fechaDeceso" : [ 1900, 1, 1 ],
+    "tipoAnimal" : {
+      "id" : 2,
+      "nombre" : "Gato"
+    }
+  } ],
+  "registrosMedicos" : [ {
+    "id" : 1,
+    "nombreVacuna" : "Rabia",
+    "dosisVacuna" : 1,
+    "sintoma" : "Fiebre",
+    "enfermedad" : "Moquillo",
+    "motivoConsulta" : "Decaimiento general",
+    "fechaConsulta" : null,
+    "fechaCita" : [ 2024, 7, 1 ],
+    "fechaRegistro" : [ 2024, 7, 2 ],
+    "precioConsulta" : 45000.0,
+    "estadoPago" : true,
+    "veterinario" : {
+      "id" : 0,
+      "tipoDocumento" : "CC",
+      "numeroDocumento" : "1000000001",
+      "nombres" : "Laura",
+      "apellidos" : "Meza",
+      "celular" : "3007654321",
+      "correoElectronico" : "laura@gaticueva.com",
+      "fechaNacimiento" : [ 1985, 5, 15 ],
+      "direccion" : "Carrera 45",
+      "sexo" : "F",
+      "direccionFotografia" : "/imagenes/veterinario.png",
+      "idVeterinario" : 1,
+      "tituloUniversitario" : null,
+      "especialidad" : "Felinos",
+      "agnosExperiencia" : null,
+      "matriculaProfessional" : null,
+      "fechaCreacion" : [ 2023, 3, 1 ],
+      "fechaModificacion" : [ 2024, 1, 10 ],
+      "fechaDeceso" : null
+    },
+    "animal" : {
+      "id" : "10345A",
+      "nombre" : "Cat",
+      "raza" : "Labrador",
+      "fechaNacimiento" : [ 2020, 3, 15 ],
+      "fechaRegistro" : [ 2020, 4, 1 ],
+      "sexo" : "Femenino",
+      "direccionFotografia" : "C:\\Users\\DILEISY\\IdeaProjects\\proyectoGaticueva\\imagenesAnimal\\10345A.jpg",
+      "fechaDeceso" : [ 1900, 1, 1 ],
+      "tipoAnimal" : {
+        "id" : 2,
+        "nombre" : "Gato"
+      }
+    }
+  } ],
+  "adopciones" : [ {
+    "id" : 1,
+    "fechaAdopcion" : [ 2023, 1, 10 ],
+    "fechaDeSeguimiento" : [ 2023, 2, 10 ],
+    "fechaModificacion" : [ 2023, 3, 1 ],
+    "adoptante" : {
+      "id" : 4,
+      "tipoDocumento" : "CC",
+      "numeroDocumento" : "1928292",
+      "nombres" : "Luis",
+      "apellidos" : "Carmona",
+      "celular" : "3011237234",
+      "correoElectronico" : "LCarmona@gaticueva.com",
+      "fechaNacimiento" : [ 1995, 8, 10 ],
+      "direccion" : "Calle 99",
+      "sexo" : "M",
+      "direccionFotografia" : "/imagenes/adoptante.png",
+      "fechaCreacion" : [ 2022, 12, 12 ],
+      "fechaModificacion" : [ 2024, 1, 15 ],
+      "fechaDeceso" : null
+    },
+    "encargado" : {
+      "id" : 1,
+      "tipoDocumento" : "CC",
+      "numeroDocumento" : "1000000000",
+      "nombres" : "Juan",
+      "apellidos" : "Pérez Garcia",
+      "celular" : "3001234567",
+      "correoElectronico" : "admin@gaticueva.com",
+      "fechaNacimiento" : [ 1990, 1, 1 ],
+      "direccion" : "Calle 123",
+      "sexo" : "M",
+      "direccionFotografia" : "C:\\Users\\DILEISY\\IdeaProjects\\proyectoGaticueva\\imagenesUsuario\\1000000000.jpg",
+      "idUsuario" : 1,
+      "usuario" : "admin",
+      "clave" : "$2a$12$cjtb78pj28ERP.ZKtqz77epudnWAxj0WNTujzlXtq50JCjrgfDyXy",
+      "fechaRegistro" : [ 2024, 1, 1 ],
+      "fechaModificacionUsuario" : [ 2024, 2, 1 ],
+      "tipoUsuario" : {
+        "id" : 1,
+        "nombre" : "Administrador"
+      },
+      "activo" : true,
+      "fechaCreacion" : [ 2023, 1, 1 ],
+      "fechaModificacion" : [ 2024, 1, 1 ],
+      "fechaDeceso" : null
+    },
+    "animal" : {
+      "id" : "10345A",
+      "nombre" : "Cat",
+      "raza" : "Labrador",
+      "fechaNacimiento" : [ 2020, 3, 15 ],
+      "fechaRegistro" : [ 2020, 4, 1 ],
+      "sexo" : "Femenino",
+      "direccionFotografia" : "C:\\Users\\DILEISY\\IdeaProjects\\proyectoGaticueva\\imagenesAnimal\\10345A.jpg",
+      "fechaDeceso" : [ 1900, 1, 1 ],
+      "tipoAnimal" : {
+        "id" : 2,
+        "nombre" : "Gato"
+      }
+    },
+    "activo" : true
+  } ]
+}
